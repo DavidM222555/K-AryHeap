@@ -1,4 +1,4 @@
-package com.heap;
+import com.heap.KAryHeap;
 
 public class Main {
 

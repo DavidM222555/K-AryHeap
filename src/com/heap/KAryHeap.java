@@ -5,7 +5,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Optional;
 
-class KAryHeap <T, U extends Comparable<U>> implements Heap<T, U> {
+public class KAryHeap <T, U extends Comparable<U>> implements Heap<T, U> {
     List<HeapEntry<T, U>> entries;
     int branchFactor;
 
