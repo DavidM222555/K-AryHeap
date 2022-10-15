@@ -56,10 +56,6 @@ public class KAryHeap <T, U extends Comparable<U>> implements Heap<T, U> {
         bubbleUp(entries.size() - 1);
     }
 
-    @Override
-    public void remove(T element) {
-
-    }
 
     public int size() {
         return entries.size();

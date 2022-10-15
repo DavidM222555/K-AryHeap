@@ -7,7 +7,6 @@ public interface Heap <T, U extends Comparable<U>> {
     Optional<T> peek();
 
     void insert(T element, U priority);
-    void remove(T element);
     void update(T element, U newPriority);
 
 }
